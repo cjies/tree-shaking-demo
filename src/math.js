@@ -1,5 +1,9 @@
-// Webpack 2 doesn't remove unused code itself :(
-import { sum, round } from 'lodash-es';
+// Better import for tree-shaking
+import sum from 'lodash-es/sum';
+import round from 'lodash-es/round';
+
+// Webpack 2 doesn't remove unused harmony :(
+// import { sum, round } from 'lodash-es';
 
 function sumAll(array) {
     return sum(array);
