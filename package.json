@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm run build",
     "prebuild": "npm run clean",
-    "build": "NODE_ENV=production webpack --config webpack.config",
+    "build": "NODE_ENV=production webpack --config webpack.config -p",
     "clean": "rimraf dist"
   },
   "author": "CJies Tan <cijies@gmail.com> (https://github.com/cjies)",
