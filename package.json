@@ -12,6 +12,7 @@
   "author": "CJies Tan <cijies@gmail.com> (https://github.com/cjies)",
   "license": "MIT",
   "devDependencies": {
+    "babel-core": "^6.24.0",
     "babel-loader": "^6.4.1",
     "babel-preset-env": "^1.2.2",
     "rimraf": "^2.6.1",
