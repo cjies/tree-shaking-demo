@@ -81,3 +81,10 @@ In line 25509,
 ...
 ```
 we can find the unused lodash methods are marked as `unused harmony` by Webpack, but UglifyJS does not drop them in minification process. (Please check [webpack/webpack#2867](https://github.com/webpack/webpack/issues/2867) issue for more details)
+
+
+## code splitting - `import()`
+
+Checkout `code_splitting` branch and run `npm install`.
+
+This is a demo of [webpack's code-splitting guide](https://webpack.js.org/guides/code-splitting-import/). Check the link for more details.
